@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Penn Tech Review Schduler</title>
+    <title>Penn Tech Review Scheduler</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
 
   <body>
+  <section class="hero is-info is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Penn Tech Review Post Scheduler
+        </h1>
+        <h2 class="subtitle">
+          Write and schedule posts for individual Facebook statuses
+        </h2>
+      </div>
+    </div>
+  </section>
   <section class="section">
-    <div class="container" style="width:50%"> 
-
-      <h1 class="title">
-         ⏰ Schedule a Post!
+    <div class="container" style="width:60%"> 
+      <h1 class="title is-3">
+         ⏰ Schedule a Post
       </h1>
-      <p class="subtitle is-5">
-        with the Penn Tech Review post scheduler
-      </p>
       <div class="field">
         <label class="label">When should this be posted?</label>
         <div class="control">
@@ -29,7 +37,7 @@
       <div class="field">
         <label class="label">What do you want to say?</label>
         <div class="control">
-          <textarea class="textarea" type="text" placeholder="Write a ~fun and personal~ short blurb about the article here!" rows="3"></textarea>
+          <textarea class="textarea" type="text" placeholder="Write a ~fun and personal~ short blurb about the article here!" rows="2"></textarea>
         </div>
       </div>
       <div class="field">
@@ -41,10 +49,10 @@
       <br>
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-success">Schedule my post!</button>
+          <button class="button is-success">Schedule!</button>
         </div>
         <div class="control">
-          <button class="button is-text">Cancel</button>
+          <a class="button is-text" href="./all-posts.html">Cancel</a>
         </div>
       </div>
     </div>
